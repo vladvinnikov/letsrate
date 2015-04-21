@@ -108,6 +108,7 @@ module Letsrate
 
 end
 
-class ActiveRecord::Base
-  include Letsrate
-end
+# Disable automatic include
+#class ActiveRecord::Base
+  #include Letsrate
+#end
